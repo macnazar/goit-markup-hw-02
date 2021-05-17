@@ -1,0 +1,227 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --paragraph-text-color: #757575;
+  --bg-hero-color: #2f303a;
+}
+
+.body {
+  font-family: Roboto, Raleway;
+  font-size: 14px;
+  background: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* посилання */
+
+.link {
+  text-decoration: none;
+}
+
+/* елементи списків */
+
+.list {
+  list-style: none;
+}
+
+/*-----Шапка сайту-----*/
+.logo-header,
+.logo-header-web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: var(--primary-text-color);
+}
+
+.logo-header-web {
+  color: var(--accent-color);
+}
+
+/* ---Навігація сайту--- */
+
+.site-nav-list .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.site-nav-list :hover,
+.site-nav-list :focus {
+  color: var(--accent-color);
+}
+
+/* ---Контакти header--- */
+
+.contacts-header-list .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--paragraph-text-color);
+}
+
+.contacts-header-list :hover,
+.contacts-header-list :focus {
+  color: var(--accent-color);
+}
+
+/* ---Герой сторінки--- */
+
+.hero .hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--bg-hero-color);
+}
+
+.hero-batton {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/* ---Про нас--- */
+
+.about-us-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.about-us-list .paragraph {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text-color);
+}
+
+/* ---Чим ми займаємось--- */
+
+.section .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ---Наша команда--- */
+
+.team-list-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-list .paragraph {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text-color);
+}
+
+/* ---Підвал сайту--- */
+
+.footer {
+  background-color: var(--bg-hero-color);
+}
+
+.logo-footer,
+.logo-footer-web {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: var(--accent-color);
+}
+.logo-footer-web {
+  color: var(--primary-white-color);
+}
+.footer .address,
+.contacts-footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.footer .address {
+  color: var(--primary-white-color);
+}
+
+.contacts-footer-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* ------------------------------------------- Портфоліо -------------------------------------------- */
+
+/* ---Меню проектів портфоліо--- */
+
+.filter-buttons .button {
+  font-style: normal;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter-buttons :hover,
+.filter-buttons :focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* ---Проекти портфоліо--- */
+
+.projects-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.projects-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-text-color);
+}
