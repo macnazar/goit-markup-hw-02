@@ -7,10 +7,12 @@
 }
 
 .body {
-  font-family: Roboto, Raleway;
-  font-size: 14px;
-  background: var(--primary-white-color);
+  font-family: Roboto, sans-serif;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* посилання */
@@ -47,8 +49,9 @@
 /* ---Навігація сайту--- */
 
 .site-nav-list .link {
-  font-style: normal;
+  font-family: Roboto;
   font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
@@ -60,9 +63,14 @@
   color: var(--accent-color);
 }
 
+.site-nav-list .current {
+  color: var(--accent-color);
+}
+
 /* ---Контакти header--- */
 
 .contacts-header-list .link {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -79,6 +87,7 @@
 /* ---Герой сторінки--- */
 
 .hero .hero-title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -90,6 +99,7 @@
 }
 
 .hero-batton {
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -102,6 +112,7 @@
 /* ---Про нас--- */
 
 .about-us-title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -121,6 +132,7 @@
 /* ---Чим ми займаємось--- */
 
 .section .title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -132,6 +144,7 @@
 /* ---Наша команда--- */
 
 .team-list-title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -140,6 +153,7 @@
 }
 
 .team-list .paragraph {
+  font-family: Roboto;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -170,6 +184,7 @@
 }
 .footer .address,
 .contacts-footer-link {
+  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -190,6 +205,7 @@
 /* ---Меню проектів портфоліо--- */
 
 .filter-buttons .button {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   color: var(--primary-text-color);
@@ -210,6 +226,7 @@
 /* ---Проекти портфоліо--- */
 
 .projects-title {
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
